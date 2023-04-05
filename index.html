@@ -133,10 +133,28 @@
         </div>
         
         <div class="text-center">
-          <button class="btn bg-primary text-light">Enviar</button>
+          <button class="btn bg-primary text-light btn-lg">Enviar</button>
         </div>
       </form>
     </div>
+
+    <!-- Modal -->
+    <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark border border-white border-3">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3 text-white" id="staticBackdropLabel">Total de pontos</h1>
+          </div>
+          <div class="modal-body">
+            <h1 class="text-light text-center points"></h1>>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger">Recomeçar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <script src="./app.js"></script>

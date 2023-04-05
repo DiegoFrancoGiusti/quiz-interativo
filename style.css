@@ -2,3 +2,12 @@
     width: 260px;
     height: 260px;
 }
+
+.modal{
+    display: none;
+}
+
+.modal-header,.modal-footer{
+    justify-content: center;
+    border: none;
+}
