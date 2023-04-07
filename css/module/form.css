@@ -1,0 +1,20 @@
+.c-form{
+    font-size: 1.6rem;
+}
+
+.c-form__content{
+    margin-bottom: 3.2rem;
+}
+
+.c-form__question{
+    margin-bottom: 1.6rem;
+}
+
+.c-form__options{
+    margin-left: 1.6rem;
+}
+
+.c-form__option-item{
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}

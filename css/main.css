@@ -1,3 +1,12 @@
 /* BASE */
 @import 'base/normalize.css';
-@import 'base/reset.css'
+@import 'base/reset.css';
+
+/* LAYOUT */
+@import 'layout/layout.css';
+
+/* MODULE */
+@import 'module/banner.css';
+@import 'module/form.css';
+@import 'module/article-title.css';
+@import 'module/btn.css'

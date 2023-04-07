@@ -2,16 +2,154 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Diego Franco Giusti Modesto da Silva">
   <meta name="description" content="Quiz interativo sobre o anime de Demon Slayer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@200;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>Quiz Interativo</title>
 </head>
 <body>
-  <header>
-    <h1>Quiz</h1>
-  </header>
+  <main class="l-main">
+    <header class="l-header-banner">
+      <img class="c-banner__img" src="img/5ede4a3fb760540004f2c5e9.png" alt="Logo de Demon Slayer">
+      <h1 class="c-banner__text">Quiz</h1>
+    </header>
 
-  <script src="app.js"></script>
+    <article class="l-article">
+      <h2 class="c-article__title">Você consegue acertar essas perguntas sobre Demon Slayer?</h2>
+      
+      <form class="c-form">
+        <section class="c-form__content">
+          <p class="c-form__question">1. Qual é a motivação do protagonista?</p>
+          <ul class="c-form__options">
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion1" id="answer1" value="A">
+              <label for="answer1">
+                Exterminar todos os demônios
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion1" id="answer2" value="B">
+              <label for="answer2">
+                Tornar-se o melhor espadachim do mundo
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion1" id="answer3" value="C">
+              <label for="answer3">
+                Vingança e ajudar a irmã
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion1" id="answer4" value="D">
+              <label for="answer4">
+                Encontar um tesouro mágico mesmo que leve muito tempo
+              </label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="c-form__content">
+          <p class="c-form__question">2. Qual é a planta que é mortal para os demônios?</p>
+          <ul class="c-form__options">
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion2" id="answer5" value="A">
+              <label for="answer5">
+                Girassol
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion2" id="answe6" value="B">
+              <label for="answe6">
+                Glicínia
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion2" id="answe7" value="C">
+              <label for="answe7">
+                Beladona
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion2" id="answe8" value="D">
+              <label for="answe8">
+                Hibisco
+              </label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="c-form__content">
+          <p class="c-form__question">3. Qual é o nome da técnica especial do pilar do som?</p>
+          <ul class="c-form__options">
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion3" id="answer9" value="A">
+              <label for="answer9">
+                Sinfonia
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion3" id="answe10" value="B">
+              <label for="answe10">
+                Partitura
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion3" id="answe11" value="C">
+              <label for="answe11">
+                Melodia
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion3" id="answe12" value="D">
+              <label for="answe12">
+                Orquestra
+              </label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="c-form__content">
+          <p class="c-form__question">4. A respiração do amor deriva de qual respiração</p>
+          <ul class="c-form__options">
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion4" id="answer13" value="A">
+              <label for="answer13">
+                Respiração das chamas
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion4" id="answe14" value="B">
+              <label for="answe14">
+                Respiração da flor
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion4" id="answe15" value="C">
+              <label for="answe15">
+                Respiração do som
+              </label>
+            </li>
+            <li class="c-form__option-item">
+              <input type="radio" name="inputquestion4" id="answe16" value="D">
+              <label for="answe16">
+                Ela é uma respiração primária
+              </label>
+            </li>
+          </ul>
+        </section>
+
+        <div class="l-btn-content">
+          <button class="c-btn">Enviar</button>
+        </div>
+      </form>
+    </article>
+    <script src="app.js"></script>
+  </main>
 </body>
 </html>
+

@@ -1,0 +1,42 @@
+/* MAIN */
+.l-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+}
+
+/* HEADER */
+
+.l-header-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #171717;
+
+    height: 40rem;
+    width: 100%;
+
+    margin-bottom: 3.2rem;
+    padding: 1.6rem 0;
+}
+
+/* ARTICLE */
+.l-article{
+    width: 90%;
+}
+
+.l-btn-content{
+    width: 100%;
+    text-align: center;
+    margin: 3.2rem 0 1.6rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .l-article{
+        width: 75%;
+    }
+}
