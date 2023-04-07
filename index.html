@@ -27,7 +27,7 @@
           <p class="c-form__question">1. Qual é a motivação do protagonista?</p>
           <ul class="c-form__options">
             <li class="c-form__option-item">
-              <input type="radio" name="inputquestion1" id="answer1" value="A">
+              <input type="radio" name="inputquestion1" id="answer1" value="A" checked>
               <label for="answer1">
                 Exterminar todos os demônios
               </label>
@@ -57,7 +57,7 @@
           <p class="c-form__question">2. Qual é a planta que é mortal para os demônios?</p>
           <ul class="c-form__options">
             <li class="c-form__option-item">
-              <input type="radio" name="inputquestion2" id="answer5" value="A">
+              <input type="radio" name="inputquestion2" id="answer5" value="A" checked>
               <label for="answer5">
                 Girassol
               </label>
@@ -87,7 +87,7 @@
           <p class="c-form__question">3. Qual é o nome da técnica especial do pilar do som?</p>
           <ul class="c-form__options">
             <li class="c-form__option-item">
-              <input type="radio" name="inputquestion3" id="answer9" value="A">
+              <input type="radio" name="inputquestion3" id="answer9" value="A" checked>
               <label for="answer9">
                 Sinfonia
               </label>
@@ -117,7 +117,7 @@
           <p class="c-form__question">4. A respiração do amor deriva de qual respiração</p>
           <ul class="c-form__options">
             <li class="c-form__option-item">
-              <input type="radio" name="inputquestion4" id="answer13" value="A">
+              <input type="radio" name="inputquestion4" id="answer13" value="A" checked>
               <label for="answer13">
                 Respiração das chamas
               </label>
@@ -148,6 +148,21 @@
         </div>
       </form>
     </article>
+
+     <!-- MODAL -->
+     <div class="c-whrapper-modal">
+        <div class="c-modal">
+          <div class="c-modal__header">
+            <h2>Sua pontuação</h2>
+          </div>
+          <div class="c-modal__body">
+            <h3 class="userScore"></h3>
+          </div>
+          <div class="c-modal__footer">
+            <button>Reiniciar Quiz</button>
+          </div>
+        </div>
+     </div>
     <script src="app.js"></script>
   </main>
 </body>
