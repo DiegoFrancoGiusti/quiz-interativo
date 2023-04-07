@@ -1,162 +1,17 @@
-<!DOCTYPE html> 
-<html lang="pt-BR">
-<head> 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Quiz | Você consegue acertar qual é o filme pelo título em português de Portugal?</title>
+  <meta name="author" content="Diego Franco Giusti Modesto da Silva">
+  <meta name="description" content="Quiz interativo sobre o anime de Demon Slayer">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Quiz Interativo</title>
 </head>
 <body>
-  <div class="intro py-3 bg-dark text-center">
-    <div class="container">
-      <img src="img/5ede4a3fb760540004f2c5e9.png" class="img-fluid imgthumb" alt="Logo do anime de Demon Slayer">
-      <h2 class="text-light display-3 my-4">Quiz</h2>
-    </div>
-  </div>
+  <header>
+    <h1>Quiz</h1>
+  </header>
 
-  <div class="quiz py-4 bg-secondary">
-    <div class="container">
-      <h2 class="my-5 text-light">Você consegue acertar essas perguntas sobre Demon Slayer?</h2>
-
-      <form class="quiz-form text-white">
-        <div class="my-5">
-          <p class="lead font-weight-normal">1. Qual é a motivação do protagonista?</p>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion1" value="A" checked>
-              Exterminar todos os demônios
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion1" value="B">
-              Tornar-se o melhor espadachim do mundo
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion1" value="C">
-              Vingança e ajudar a irmã
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion1" value="D">
-              Encontar um tesouro mágico mesmo que leve muito tempo
-            </label>
-          </div>
-        </div>
-
-        <div class="my-5">
-          <p class="lead font-weight-normal">2. Qual é a planta que é mortal para os demônios?</p>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion2" value="A" checked>
-              Girassol
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion2" value="B">
-              Glicínia
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion2" value="C">
-              Beladona
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion2" value="D">
-              Hibisco
-            </label>
-          </div>
-        </div>
-
-        <div class="my-5">
-          <p class="lead font-weight-normal">3. Qual é o nome da técnica especial do pilar do som?</p>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion3" value="A" checked>
-             Sinfonia
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion3" value="B">
-              Partitura
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion3" value="C">
-              Melodia
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion3" value="D">
-              Orquestra
-            </label>
-          </div>
-        </div>
-
-        <div class="my-5">
-          <p class="lead font-weight-normal">4. A respiração do amor deriva de qual respiração</p>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion4" value="A" checked>
-              Respiração das chamas
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion4" value="B">
-              Respiração da flor
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion4" value="C">
-              Respiração do som
-            </label>
-          </div>
-          <div class="form-check my-2 text-white">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion4" value="D">
-              Ela é uma respiração primária
-            </label>
-          </div>
-        </div>
-        
-        <div class="text-center">
-          <button class="btn bg-primary text-light btn-lg">Enviar</button>
-        </div>
-      </form>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content bg-dark border border-white border-3">
-          <div class="modal-header">
-            <h1 class="modal-title fs-3 text-white" id="staticBackdropLabel">Total de pontos</h1>
-          </div>
-          <div class="modal-body">
-            <h1 class="text-light text-center points"></h1>>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger">Recomeçar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <script src="./app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
