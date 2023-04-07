@@ -1,15 +1,35 @@
 .c-whrapper-modal{
-    position: absolute;
+    display: flex;
+    align-items: center;
+    position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .c-modal{
-    
-    width: 90%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 28rem;
     background-color: #171717;
     border: 2px solid whitesmoke;
     border-radius: 3px;
+
     margin: 0px auto;
+    padding: 2.4rem 0;
 }
+
+.c-modal__userScore{
+    font-size: 5.6rem;
+    text-align: center;
+}
+
+@media screen and (min-width:600px){
+    .c-modal{
+        width: 48rem;
+    }
+}
+
+
+

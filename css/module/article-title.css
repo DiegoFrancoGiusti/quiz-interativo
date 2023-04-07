@@ -1,11 +1,15 @@
-.c-article__title{
+.c-title{
     margin-bottom: 2.4rem;
     font-size: 2.4rem;
     font-weight: 600;
 }
 
+.title--modal{
+    text-align: center;
+}
+
 @media screen and (min-width: 1024px) {
-    .c-article__title{
+    .c-title{
        font-size: 3.2rem;
     }
     

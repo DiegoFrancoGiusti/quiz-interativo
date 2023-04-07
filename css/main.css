@@ -10,4 +10,7 @@
 @import 'module/form.css';
 @import 'module/article-title.css';
 @import 'module/btn.css';
-@import 'module/modal.css'
+@import 'module/modal.css';
+
+/* STATE */
+@import 'state/is-close.css';
